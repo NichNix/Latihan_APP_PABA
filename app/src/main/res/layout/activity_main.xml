@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halaman Tambah / Edit"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <EditText android:id="@+id/namaTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Task"
+        android:padding="8dp"
+        android:background="@android:drawable/edit_text"/>
+    <EditText android:id="@+id/tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal"
+        android:padding="8dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="8dp"/>
+    <EditText android:id="@+id/kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kategori"
+        android:padding="8dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="8dp"/>
+    <EditText android:id="@+id/deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Deskripsi"
+        android:padding="8dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="8dp"/>
+    <Button android:id="@+id/simpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIMPAN"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
